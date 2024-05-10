@@ -1,6 +1,6 @@
 <?php
 
-namespace Lens;
+namespace Lensphp\Lens;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;

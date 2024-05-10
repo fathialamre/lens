@@ -1,6 +1,6 @@
 <?php
 
-namespace Lens\models;
+namespace Lensphp\Lens\models;
 
 use Illuminate\Database\Eloquent\Model;
 use Spatie\MediaLibrary\HasMedia;
