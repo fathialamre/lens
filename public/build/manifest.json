@@ -1,0 +1,20 @@
+{
+  "resources/js/Pages/Home.tsx": {
+    "file": "assets/Home-Bn3kWyG7.js",
+    "name": "Home",
+    "src": "resources/js/Pages/Home.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx"
+    ]
+  },
+  "resources/js/app.tsx": {
+    "file": "assets/app-4mJXgO4J.js",
+    "name": "app",
+    "src": "resources/js/app.tsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/Home.tsx"
+    ]
+  }
+}
