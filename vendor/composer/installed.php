@@ -3,7 +3,7 @@
         'name' => 'lensphp/lens',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '06391638e0f491d98e401c8f45ea714a31acf165',
+        'reference' => '7fdcac05b8bbea6805812786a9e969c7bd654a86',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -409,7 +409,7 @@
         'lensphp/lens' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '06391638e0f491d98e401c8f45ea714a31acf165',
+            'reference' => '7fdcac05b8bbea6805812786a9e969c7bd654a86',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

@@ -2,12 +2,24 @@
     "name": "lensphp/lens",
     "type": "library",
     "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lensphp\\Lens\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "fathialamre",
             "email": "fathialamre90@gmail.com"
         }
     ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lensphp\\Lens\\LensServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
@@ -19,10 +31,5 @@
         "spatie/laravel-medialibrary": "^10.0|^11.0"
     },
     "require-dev": {
-    },
-    "autoload": {
-        "psr-4": {
-            "Lensphp\\Lens\\": "src/"
-        }
     }
 }
